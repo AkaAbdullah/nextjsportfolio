@@ -73,7 +73,7 @@ export default function Home() {
             <AiFillYoutube />
           </div>
           <div className='relative mx-auto md:h-96 md:w-96 overflow-hidden bg-gradient-to-b from text-teal-500 rounded-full w-80 h-80 mt-20'>
-            <Image src={abdu} layout='fill' objectFit='cover' />
+            <Image alt='testimage' src={abdu} layout='fill' objectFit='cover' />
           </div>
         </section>
         <section>
@@ -85,33 +85,38 @@ export default function Home() {
           </div>
           <div className='lg:flex flex-auto gap-10'>
             <div className='text-center  shadow-lg p-10 rounded-xl my-10 dark:bg-gray-500'>
-              <Image src={javascript} width={100} height={100} />
+              <Image
+                alt='testimage'
+                src={javascript}
+                width={100}
+                height={100}
+              />
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>
                 JavaScript
               </h3>
             </div>
             <div className='text-center  shadow-lg p-10 rounded-xl my-10 dark:bg-gray-500'>
-              <Image src={html} width={100} height={100} />
+              <Image alt='testimage' src={html} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>
                 React JS
               </h3>
             </div>
             <div className='text-center dark:text-white shadow-lg p-10 rounded-xl my-10 dark:bg-gray-500'>
-              <Image src={nodejs} width={140} height={100} />
+              <Image alt='testimage' src={nodejs} width={140} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>
                 Node Js
               </h3>
             </div>
             <div className='text-center dark:text-white shadow-lg p-10 rounded-xl my-10 dark:bg-gray-500'>
-              <Image src={python} width={100} height={100} />
+              <Image alt='testimage' src={python} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>Python</h3>
             </div>
             <div className='text-center dark:text-white shadow-lg p-10 rounded-xl my-10 dark:bg-gray-500'>
-              <Image src={mongodb} width={100} height={100} />
+              <Image alt='testimage' src={mongodb} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>Mongo DB</h3>
             </div>
             <div className='text-center dark:text-white shadow-lg p-10 rounded-xl my-10 dark:bg-gray-500'>
-              <Image src={mui} width={100} height={100} />
+              <Image alt='testimage' src={mui} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>MUI</h3>
             </div>
           </div>
@@ -126,6 +131,7 @@ export default function Home() {
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1  text-center  dark:bg-gray-500 shadow-lg p-10 rounded-xl my-10 '>
               <Image
+                alt='testimage'
                 className='rounded-lg obejct-cover'
                 width={'100%'}
                 height={'60%'}
@@ -146,6 +152,7 @@ export default function Home() {
             </div>
             <div className='basis-1/3 flex-1 text-center dark:bg-gray-500  shadow-lg p-10 rounded-xl my-10'>
               <Image
+                alt='testimage'
                 className='rounded-lg obejct-cover'
                 width={'100%'}
                 height={'60%'}
@@ -166,6 +173,7 @@ export default function Home() {
             </div>
             <div className='basis-1/3 flex-1  text-center dark:bg-gray-500 shadow-lg p-10 rounded-xl my-10 '>
               <Image
+                alt='testimage'
                 className='rounded-lg obejct-cover'
                 width={'100%'}
                 height={'60%'}
@@ -186,6 +194,7 @@ export default function Home() {
             </div>
             <div className='basis-1/3 flex-1  text-center dark:bg-gray-500  shadow-lg p-10 rounded-xl my-10 '>
               <Image
+                alt='testimage'
                 className='rounded-lg obejct-cover'
                 width={'100%'}
                 height={'60%'}
@@ -206,6 +215,7 @@ export default function Home() {
             </div>
             <div className='basis-1/3 flex-1 text-center  dark:bg-gray-500 shadow-lg p-10 rounded-xl my-10'>
               <Image
+                alt='testimage'
                 className='rounded-lg obejct-cover'
                 width={'100%'}
                 height={'60%'}
@@ -226,6 +236,7 @@ export default function Home() {
             </div>
             <div className='basis-1/3 flex-1 text-center dark:bg-gray-500 shadow-lg p-10 rounded-xl my-10'>
               <Image
+                alt='testimage'
                 className='rounded-lg obejct-cover'
                 width={'100%'}
                 height={'60%'}
